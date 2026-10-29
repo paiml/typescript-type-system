@@ -1,0 +1,4 @@
+node_modules/
+# JavaScript a plain `npx tsc file.ts` writes next to a file, if you try one
+# without --noEmit.
+*.js

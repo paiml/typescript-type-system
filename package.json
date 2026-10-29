@@ -1,0 +1,16 @@
+{
+  "name": "ts7-everyday-types-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples of the types you use every day in TypeScript 7",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
