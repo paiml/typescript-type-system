@@ -1,0 +1,6 @@
+# Read by codespell, locally and in .github/workflows/gate.yml.
+[codespell]
+skip = ./.git,./node_modules,./package-lock.json
+# Misspelled on purpose: objects/user.ts reads user.frist so the compiler can
+# catch it (TS2551, "Did you mean 'first'?").
+ignore-words-list = frist
